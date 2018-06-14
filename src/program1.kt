@@ -7,6 +7,7 @@ fun main(args: Array<String>) {
 
 fun getYearEra(a:String):String{
     var b:String
+
     when {
         a.toInt()<1970 -> b = "before"
         ((a.toInt()<2000)&&(a.toInt()>=1970)) -> b = "after (XX century)"
